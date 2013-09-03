@@ -1,0 +1,45 @@
+"Label": {
+	color: "#222222",
+	top: "10dp",
+	left: "10dp",
+	width: Ti.UI.SIZE,
+	height: "30dp",
+	font: { fontSize:"16" }
+},
+"TextField": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	color: "#336699",
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	width: Ti.UI.FILL,
+	height: "60dp"
+},
+"Switch": {
+	top: "10dp",
+	right: "10dp"
+},
+"Button": {
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	width: Ti.UI.FILL,
+	height: "60dp",
+	style: Titanium.UI.iPhone.SystemButtonStyle.BORDERED
+},
+"ScrollView": {
+	width: Ti.UI.SIZE,
+   	height: Ti.UI.SIZE,
+   	contentHeight: "auto",
+   	contentWidth: "auto",
+},
+"#container": {
+	backgroundColor:"#888888",
+	layout: "vertical",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+"#privacyContainer": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+}

@@ -1,0 +1,16 @@
+<Alloy>
+    <Window id="win">
+    	<ScrollView>
+	    	<View id="container">
+		    	<TextField id="nameField" hintText='Enter name' />
+		        <TextField id="emailField" hintText='Enter email address' />
+		        <TextField id="passwordField" passwordMask="true" hintText='Enter password' />
+		        <View id="privacyContainer">
+		        	<Label id="privacyLabel" text="Posts are private" />
+		        	<Switch id="privacySwitch" value="false" />
+		        </View>
+		        <Button id="submitButton" class="button" title="Submit" />
+			</View>
+		</ScrollView>
+    </Window>
+</Alloy>

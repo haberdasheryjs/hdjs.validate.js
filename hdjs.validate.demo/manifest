@@ -1,0 +1,9 @@
+#appname:hdjs.validate.demo
+#appid:com.haberdasheryjs.validate.demo
+#type:mobile
+#guid:23836b78-f8e9-4837-9fad-e511f8ee292b
+#version:1.0
+#publisher:HaberdasheryJS
+#url:http://www.haberdasheryjs.com
+#image:appicon.png
+#desc:A demonstration app for hdjs.validate.js
