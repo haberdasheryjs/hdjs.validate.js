@@ -117,7 +117,6 @@ FormValidator.prototype.registerCallback = function(name, handler) {
 FormValidator.prototype.run = function(fields, callback) {
     callback = callback || defaults.callback;
     this.errors = [];
-    this.messages = {};
 
     for (var i = 0, fieldsLength = fields.length; i < fieldsLength; i++) {
             /*
